@@ -1,0 +1,93 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.translate{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to right,blue,green,red,yellow);
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: 3s;
+    border: 20px solid transparent;
+    border-image: url(../3.image/download.png) 30 stretch;
+    box-shadow: 10px 15px 100px black;
+}
+
+.translate:hover{
+    transform: translateX(300px);
+}
+
+
+.skew{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to right,aqua,red,yellow);
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: 3s;
+    
+}
+
+.skew:hover{
+    transform: skewY(45deg);
+    border: 20px solid transparent;
+    border-image: url(../3.image/download.png) 30 stretch;
+    box-shadow: 10px 15px 100px black;
+    
+}
+
+
+.rotate{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to right,red,yellow);
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: 3s;
+}
+
+.rotate:hover{
+    transform: rotate(360deg);
+    border: 20px solid transparent;
+    border-image: url(../3.image/download.png) 30 stretch;
+    box-shadow: 10px 15px 100px black;
+}
+
+
+.scale{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(to right,gray,yellow);
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: 3s;
+}
+
+
+.scale:hover{
+    transform: scale(1.5);
+    border: 20px solid transparent;
+    border-image: url(../3.image/download.png) 30 stretch;
+    box-shadow: 10px 15px 100px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
